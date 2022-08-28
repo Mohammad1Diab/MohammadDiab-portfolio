@@ -461,9 +461,5 @@ transition: 0.5s;
 }
 
 @media screen and (max-width: 800px){
-  .img1{      background-position: center;
-background-repeat: no-repeat;
-background-image: url(pic333.jpg);
-background-size: cover;
-  cursor: default;}
+  .img1{  width: 0%; height: 0%;}
 }
