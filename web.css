@@ -459,3 +459,11 @@ transition: 0.5s;
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 800px){
+  .img1{      background-position: center;
+background-repeat: no-repeat;
+background-image: url(pic333.jpg);
+background-size: cover;
+  cursor: default;}
+}
