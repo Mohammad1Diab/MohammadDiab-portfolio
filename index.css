@@ -4,6 +4,11 @@ body {
   cursor: default;
 }
 
+@media screen and (max-width:800px){
+  .svg{visibility: hidden;
+  height:0;
+  width:0;}
+}
 
 .head {
   align-items: center;
