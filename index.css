@@ -382,6 +382,20 @@ cursor: pointer;
 transition: 0.5s;
 }
 
+.imgup{
+height: 70px;
+width:70px;
+cursor: pointer;
+transition: 1s;
+}
+
+.imgup:hover{
+height: 73px;
+width:73px;
+cursor: pointer;
+transition: 0.5s;
+}
+
 .amail{
   color: white;
   text-decoration: none;
