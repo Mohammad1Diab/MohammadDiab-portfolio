@@ -407,3 +407,33 @@ transition: 0.5s;
   text-decoration: underline;
 
 }
+
+.aaa4{
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+
+.aaa4:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #6c63ff;
+  transform-origin: bottom right;
+  transition: transform 0.45s ease-out;
+}
+
+.aaa4:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.heading1{
+word-spacing: 40px;
+}
