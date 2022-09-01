@@ -437,3 +437,9 @@ transition: 0.5s;
 .heading1{
 word-spacing: 40px;
 }
+
+@media screen and (max-width: 800px){
+  .heading1{
+  word-spacing: 10px;
+  }
+}
